@@ -68,6 +68,10 @@ li {
     background-color: #F9FAFF;
 }
 
+.text-soft{
+    color: #565656;
+}
+
 /* font size */
 .font-18 {
     font-size: 18px;
@@ -76,22 +80,33 @@ li {
 .font-24 {
     font-size: 24px;
 }
+
+.font-48 {
+    font-size: 48px;
+}
+
 .font-64 {
     font-size: 64px;
 }
 
-
 /* button background */
 .btn-bg {
     background: #EEEEEE;
-    ;
+}
+
+/* Banner carousel */
+.bg-banner{
+    background-image: url(../images/banner-bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* footer */
-footer{
+footer {
     background-color: #00071B;
 }
-.footer-logo{
+
+.footer-logo {
     width: 76px;
     height: 65px;
 }
