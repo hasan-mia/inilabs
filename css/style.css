@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* all text color and background color*/
+.text-black {
+    color: #00071B;
+}
+
+.bg-black {
+    background-color: #00071B;
+}
+
+.text-black-soft {
+    color: #272727;
+}
+
+.bg-black-soft {
+    background-color: #272727;
+}
+
+.text-green {
+    color: #0A8200;
+}
+
+.bg-green {
+    background-color: #0A8200;
+}
+
+.text-ash {
+    color: #C4C4C4;
+}
+
+.bg-ash {
+    background-color: #C4C4C4;
+}
+
+.text-blue {
+    color: #002482;
+}
+
+.bg-blue {
+    background-color: #002482;
+}
+
+.text-white-soft {
+    color: #F9FAFF;
+}
+
+.bg-white-soft {
+    background-color: #F9FAFF;
+}
+/* font size */
+.font-18{
+    font-size: 18px;
+}
+.font-24{
+    font-size: 24px;
+}
+/* button background */
+.btn-bg{
+    background: #EEEEEE;;
+}
