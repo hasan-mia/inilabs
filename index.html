@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" />
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.0/css/all.css">
+    <!-- slickslider -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <!-- main style css -->
     <link rel="stylesheet" href="css/style.css">
     <!-- responsive css -->
@@ -184,7 +186,7 @@
     ======================= -->
     <main class="min-h-screen">
 
-        <!-- ==alert messages=== -->
+        <!-- ==Alert messages=== -->
         <section id="alert-5" class="flex justify-between py-2 px-8 bg-gray-100 dark:bg-gray-700" role="alert">
             <div class="w-full">
                 <p class="text-center ml-auto">
@@ -198,8 +200,8 @@
             </button>
         </section>
 
-        <!-- ==slider section=== -->
-        <section>
+        <!-- ==Slider section=== -->
+        <section class="w-full">
             <div id="animation-carousel" class="relative" data-carousel="static">
                 <!-- Carousel wrapper -->
                 <div class="relative h-56 overflow-hidden md:h-96">
@@ -327,6 +329,111 @@
             </div>
         </section>
 
+        <!-- ==Treanding section== -->
+        <section class="w-full p-8">
+            <h1 class="font-36 font-libre font-semibold py-4">Trending Now</h1>
+            <div class="grid grid-cols-4 gap-4 trend">
+                <!-- item 1 -->
+                <div class="card">
+                    <img src="images/dress1.png" class="w-full h-60 rounded-md" alt="dress">
+                    <h1 class="px-4 font-24 font-semibold">Womens Denim Jacket</h1>
+                    <div class="flex items-center justify-between px-4">
+                        <p class="font-18">Brand Name</p>
+                        <p class="text-soft"><span>4.5</span><i class="fas fa-star"></i></p>
+                    </div>
+                    <div class="flex items-center justify-between px-4">
+                        <p class="font-18 font-semibold">Rs. 700</p>
+                        <del class="text-sm text-soft">Rs. 1000</del>
+                        <p class="text-green">(30% off)</p>
+                    </div>
+                </div>
+                <!-- item 2 -->
+                <div class="card">
+                    <img src="images/dress2.png" class="w-full h-60 rounded-md" alt="dress">
+                    <h1 class="px-4 font-24 font-semibold">Womens Denim Jacket</h1>
+                    <div class="flex items-center justify-between px-4">
+                        <p class="font-18">Brand Name</p>
+                        <p class="text-soft"><span>4.5</span><i class="fas fa-star"></i></p>
+                    </div>
+                    <div class="flex items-center justify-between px-4">
+                        <p class="font-18 font-semibold">Rs. 700</p>
+                        <del class="text-sm text-soft">Rs. 1000</del>
+                        <p class="text-green">(30% off)</p>
+                    </div>
+                </div>
+                <!-- item 3 -->
+                <div class="card">
+                    <img src="images/dress3.png" class="w-full h-60 rounded-md" alt="dress">
+                    <h1 class="px-4 font-24 font-semibold">Womens Denim Jacket</h1>
+                    <div class="flex items-center justify-between px-4">
+                        <p class="font-18">Brand Name</p>
+                        <p class="text-soft"><span>4.5</span><i class="fas fa-star"></i></p>
+                    </div>
+                    <div class="flex items-center justify-between px-4">
+                        <p class="font-18 font-semibold">Rs. 700</p>
+                        <del class="text-sm text-soft">Rs. 1000</del>
+                        <p class="text-green">(30% off)</p>
+                    </div>
+                </div>
+                <!-- item 4 -->
+                <div class="card">
+                    <img src="images/dress4.png" class="w-full h-60 rounded-md" alt="dress">
+                    <h1 class="px-4 font-24 font-semibold">Womens Denim Jacket</h1>
+                    <div class="flex items-center justify-between px-4">
+                        <p class="font-18">Brand Name</p>
+                        <p class="text-soft"><span>4.5</span><i class="fas fa-star"></i></p>
+                    </div>
+                    <div class="flex items-center justify-between px-4">
+                        <p class="font-18 font-semibold">Rs. 700</p>
+                        <del class="text-sm text-soft">Rs. 1000</del>
+                        <p class="text-green">(30% off)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <!-- ==Deals of the day section== -->
+         <section class="w-full p-8">
+            <h1 class="font-36 font-libre font-semibold py-4">Deals of the Day</h1>
+            <div class="grid grid-cols-3 gap-4 trend">
+                <!-- item 1 -->
+                <div class="card">
+                    <img src="images/dress1.png" class="w-full h-60 rounded-md" alt="dress">
+                    <div class="flex justify-center py-4">
+                        <img src="images/levis.png" class="w-32" alt="brand">
+                    </div>
+                    <div class="flex flex-col items-center px-4">
+                        <h1 class="font-36 text-black-soft font-semibold">Best of Styles</h1>
+                        <p class="font-24 text-black-soft font-semibold">Under Rs.799</p>
+                    </div>
+                </div>
+                <!-- item 2 -->
+                <div class="card">
+                    <img src="images/dress5.png" class="w-full h-60 rounded-md" alt="dress">
+                    <div class="flex justify-center py-4">
+                        <img src="images/levis.png" class="w-32" alt="brand">
+                    </div>
+                    <div class="flex flex-col items-center px-4">
+                        <h1 class="font-36 text-black-soft font-semibold">Best of Styles</h1>
+                        <p class="font-24 text-black-soft font-semibold">Under Rs.799</p>
+                    </div>
+                </div>
+                <!-- item 3 -->
+                <div class="card">
+                    <img src="images/dress6.png" class="w-full h-60 rounded-md" alt="dress">
+                    <div class="flex justify-center py-4">
+                        <img src="images/levis.png" class="w-32" alt="brand">
+                    </div>
+                    <div class="flex flex-col items-center px-4">
+                        <h1 class="font-36 text-black-soft font-semibold">Best of Styles</h1>
+                        <p class="font-24 text-black-soft font-semibold">Under Rs.799</p>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </section>
+
     </main>
     <!-- end main -->
 
@@ -336,7 +443,7 @@
     <footer class="w-full bg-black mb-0">
         <div class="flex gap-2 items-center pt-6 px-8">
             <img src="images/logo-footer.png" class="footer-logo" alt="logo">
-            <h1 class="font-64 text-white font-bold">Globex</h1>
+            <h1 class="font-64 font-libre text-white font-bold">Globex</h1>
         </div>
         <div class="flex flex-col lg:flex-row py-8 border-b">
             <div class="w-full md:w-6/12 lg:w-9/12 px-0 lg:px-32 px-8">
@@ -433,8 +540,19 @@
     <!--========= All javascript file ============-->
     <!-- flowbite js -->
     <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+    <!-- slick slider -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <!-- main custom js -->
-    <script src="js/index.js"></script>
+    <script>
+        $('.trend').slick({
+            dots: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 1,
+            centerMode: true,
+            variableWidth: true
+        });
+    </script>
 </body>
 
 </html>
