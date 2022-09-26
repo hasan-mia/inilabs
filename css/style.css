@@ -76,6 +76,10 @@ li {
 .font-24 {
     font-size: 24px;
 }
+.font-64 {
+    font-size: 64px;
+}
+
 
 /* button background */
 .btn-bg {
@@ -86,4 +90,8 @@ li {
 /* footer */
 footer{
     background-color: #00071B;
+}
+.footer-logo{
+    width: 76px;
+    height: 65px;
 }
