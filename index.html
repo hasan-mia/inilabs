@@ -24,7 +24,7 @@
     <!-- ======================
         header start
     ======================= -->
-    <header>
+    <header class="mt-0">
         <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900 font-18">
             <div class="container flex flex-wrap justify-between items-center mx-auto">
                 <a href="https://flowbite.com/" class="flex items-center">
@@ -58,7 +58,7 @@
                         </div>
                         <!-- search input -->
                         <input type="text" id="search-navbar"
-                            class="block p-2 pr-10 w-full text-gray-900 bg-gray-50 rounded-lg border border-gray-300 sm:text-sm focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                            class="block p-2 pr-10 w-full lg:w-80 text-gray-900 bg-gray-100 rounded-md border border-gray-300 sm:text-sm focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                             placeholder="Search...">
                     </div>
 
@@ -188,28 +188,82 @@
         main start
     ======================= -->
     <main class="min-h-screen">
-        <!-- ==Alert Notification=== -->
-        <div id="alert-5" class="flex justify-between p-2 bg-gray-100 rounded-lg dark:bg-gray-700" role="alert">
+
+        <!-- ==alert messages=== -->
+        <section id="alert-5" class="flex justify-between py-2 px-8 bg-gray-100 dark:bg-gray-700" role="alert">
             <div class="w-full">
                 <p class="text-center ml-auto">
                     Invite Friends and get 50% off on your next purchase
-                <a href="#" class="text-blue text-md">Invite Now</a>
-                </p> 
-            </div>   
+                    <a href="#" class="text-blue text-md">Invite Now</a>
+                </p>
+            </div>
             <button type="button" class="ml-auto" data-dismiss-target="#alert-5" aria-label="Close">
                 <span class="sr-only">Dismiss</span>
                 <i class="fal fa-times fa-x"></i>
             </button>
-           
-        </div>
+        </section>
+
+        <!-- ==slider section=== -->
+
     </main>
     <!-- end main -->
 
     <!-- ======================
         footer start
     ======================= -->
-    <footer>
-        footer
+    <footer class="w-full bg-black mb-0 p-8">
+        <h1 class="text-5xl text-white font-bold mb-10">Globex</h1>
+        <div class="flex flex-col lg:flex-row">
+            <div class="w-full md:w-6/12 lg:w-9/12">
+                <div class="grid grid-cols-4">
+                    <nav class="text-white">
+                        <h1 class="font-24">Women</h1>
+                        <ul class="flex flex-col">
+                            <li> <a href="#">All Women</a></li>
+                            <li> <a href="#">All Women</a></li>
+                            <li> <a href="#">All Women</a></li>
+                            <li> <a href="#">All Women</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="text-white">
+                        <h1 class="font-24">Women</h1>
+                        <ul class="flex flex-col">
+                            <li> <a href="#">All Women</a></li>
+                            <li> <a href="#">All Women</a></li>
+                            <li> <a href="#">All Women</a></li>
+                            <li> <a href="#">All Women</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="text-white">
+                        <h1 class="font-24">Women</h1>
+                        <ul class="flex flex-col">
+                            <li> <a href="#">All Women</a></li>
+                            <li> <a href="#">All Women</a></li>
+                            <li> <a href="#">All Women</a></li>
+                            <li> <a href="#">All Women</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="text-white">
+                        <h1 class="font-24">Women</h1>
+                        <ul class="flex flex-col">
+                            <li> <a href="#">All Women</a></li>
+                            <li> <a href="#">All Women</a></li>
+                            <li> <a href="#">All Women</a></li>
+                            <li> <a href="#">All Women</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <!-- end left -->
+            <div class="w-full md:w-6/12 lg:w-3/12">
+                <div class="text-white">
+                    <h1 class="font-24">Stay In Touch</h1>
+                    <p>Stay in touch to get special offers, free giveaways
+                        and once in a lifetime deals</p>
+                </div>
+            </div>
+            <!-- end right -->
+        </div>
     </footer>
     <!-- end footer -->
 
