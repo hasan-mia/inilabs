@@ -109,6 +109,22 @@ li {
     background-repeat: no-repeat;
 }
 
+/* slick slider */
+.slick-next.slick-arrow, .slick-prev.slick-arrow{
+    background-color: #0A8200;
+}
+
+.width-350{
+    width: 350px;
+}
+
+/* Hero */
+.hero{
+    background-image: url(../images/hero-bg.svg);
+    background-repeat: no-repeat;
+    height: 692px;
+}
+
 /* footer */
 footer {
     background-color: #00071B;

@@ -1,12 +1,13 @@
 // =====Trend Slider====
 $('.trend').slick({
     centerMode: false,
-    // centerPadding: '60px',
     dots: false,
     infinite: true,
-    arrows: true,
+    arrows: false,
+    autoplay: true,
     speed: 300,
-    slidesToShow: 4,
+    slidesToShow: 3,
+    variableWidth: true,
     responsive: [
         {
             breakpoint: 768,
@@ -15,7 +16,7 @@ $('.trend').slick({
                 centerMode: true,
                 variableWidth: true,
                 centerPadding: '40px',
-                slidesToShow: 4,
+                slidesToShow: 5,
             }
         },
         {
@@ -37,7 +38,8 @@ $('.deal').slick({
     centerMode: false,
     dots: false,
     infinite: true,
-    arrows: true,
+    arrows: false,
+    autoplay: true,
     speed: 300,
     slidesToShow: 3,
     variableWidth: true,
@@ -49,6 +51,39 @@ $('.deal').slick({
                 centerMode: true,
                 centerPadding: '40px',
                 slidesToShow: 3,
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 1
+            }
+        }
+    ]
+
+});
+
+// =====Offer Slider====
+$('.offer').slick({
+    centerMode: false,
+    dots: true,
+    infinite: true,
+    arrows: false,
+    autoplay: false,
+    speed: 300,
+    slidesToShow: 2,
+    variableWidth: true,
+    responsive: [
+        {
+            breakpoint: 768,
+            settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 2,
             }
         },
         {
