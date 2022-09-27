@@ -110,19 +110,39 @@ li {
 }
 
 /* slick slider */
-.slick-next.slick-arrow, .slick-prev.slick-arrow{
+.slick-next.slick-arrow,
+.slick-prev.slick-arrow {
     background-color: #0A8200;
 }
 
-.width-350{
+.width-350 {
     width: 350px;
 }
 
 /* Hero */
-.hero{
+.hero {
     background-image: url(../images/hero-bg.svg);
     background-repeat: no-repeat;
     height: 692px;
+}
+
+.slick-next.slick-arrow,
+.slick-prev.slick-arrow {
+    background-color: #241f1f3d;
+    border-radius: 50px;
+    padding: 0px;
+    background: #ffffff;
+}
+
+.slick-next:before,
+.slick-prev:before {
+    font-family: slick;
+    font-size: 23px;
+    line-height: 1;
+    opacity: .75;
+    color: #000000;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 /* footer */

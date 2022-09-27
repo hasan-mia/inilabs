@@ -98,3 +98,36 @@ $('.offer').slick({
     ]
 
 });
+
+
+// =====Customer review====
+$('.customer').slick({
+    centerMode: true,
+    dots: false,
+    infinite: true,
+    arrows: true,
+    autoplay: false,
+    speed: 300,
+    slidesToShow: 2,
+    variableWidth: false,
+    responsive: [
+        {
+            breakpoint: 768,
+            settings: {
+                arrows: false,
+                centerMode: true,
+                slidesToShow: 1,
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 1
+            }
+        }
+    ]
+
+});
