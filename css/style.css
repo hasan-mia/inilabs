@@ -154,3 +154,13 @@ footer {
     width: 76px;
     height: 65px;
 }
+
+@media (max-width: 640px) {
+    .footer-logo {
+        width: 100px;
+        height: auto;
+    }
+    .font-64{
+        font-size: 36px;
+    }
+}
